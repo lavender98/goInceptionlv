@@ -17,7 +17,7 @@ RUN wget -O /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/releases/
 COPY bin/goInception /goInception
 # COPY bin/percona-toolkit.tar.gz /tmp/percona-toolkit.tar.gz
 COPY bin/pt-online-schema-change /tmp/pt-online-schema-change
-COPY config/config.toml.default /etc/config.toml
+COPY config/config.toml /etc/config.toml
 
 
 # Executable image
